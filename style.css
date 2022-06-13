@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.image-container{
+    width: 217px;
+    height: 250px;
+    
+}
+
+.image-container img{
+    max-width: 100%;
+    border-radius: 16px ;
+}
+
+.header h2{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+margin: 4px;
+}
+
+.header h3{
+    margin: 4px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #A9A9A9;
+
+}
+
+.data{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.item{
+    margin: 1rem;
+    width: 100px;
+    height: 67px;
+    left: 546px;
+    top: 310px;
+    background: #E5E5E5;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item h5 {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #4E5150;
+}
+
+.item p {
+    margin: 0;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #BDBDBD;
+}
+.grid-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+    width: 600px;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+.element{
+    background: aquamarine;
+}
+img{
+    max-width: 100%;
+    border-radius: 16px;
+    margin-right: 40px;
+}
+
+.element-two{
+   grid-column: span 2; 
+}
+
+.element-three{
+    grid-column: span 2;
+}
+
+.element-four{
+    grid-row: span 2;
+}
+
+.footer{
+    text-align: center;
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B9BDCF;
+}
+
+.footer a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #B9BDCF;
+}
+
+.footer a:hover{
+  
+    color: rgb(116, 149, 74);
+}
